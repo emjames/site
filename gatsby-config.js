@@ -3,6 +3,24 @@ module.exports = {
     title: `Emanuel Jaimes`,
     description: `EmJames Site`,
     author: `@emjames`,
+    contact: [
+      {
+        title: 'Github',
+        url: 'https://www.github.com/emjames'
+      },
+      {
+        title: 'Telegram',
+        url: 'https://telegram.me/jms55'
+      },
+      {
+        title: 'Email',
+        url: 'mailto:ej@emjames.com'
+      },
+      {
+        title: 'CV',
+        url: 'https://drive.google.com/open?id=1N8LmZhCSLh67-X-FyPZdVhuY7vw8WaQV'
+      },
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
