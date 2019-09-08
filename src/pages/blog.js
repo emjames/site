@@ -10,9 +10,11 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <a href="/">
-        <Image />
-      </a>
+      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, marginTop: `2rem` }}>
+        <a href="/">
+          <Image />
+        </a>
+      </div>
       <div className="post-list">
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
