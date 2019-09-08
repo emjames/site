@@ -3,6 +3,28 @@ module.exports = {
     title: `Emanuel Jaimes`,
     description: `EmJames Site`,
     author: `@emjames`,
+    contact: [
+      {
+        title: 'Github',
+        url: 'https://www.github.com/emjames'
+      },
+      {
+        title: 'Telegram',
+        url: 'https://telegram.me/jms55'
+      },
+      {
+        title: 'Email',
+        url: 'mailto:ej@emjames.com'
+      },
+      {
+        title: 'CV',
+        url: 'https://drive.google.com/open?id=1N8LmZhCSLh67-X-FyPZdVhuY7vw8WaQV'
+      },
+      {
+        title: 'Blog',
+        url: '/blog/'
+      }
+    ]
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +49,15 @@ module.exports = {
         icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
+    // Markdown notes
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
+      }
+    },
+    `gatsby-transformer-remark`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
