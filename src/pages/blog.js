@@ -19,9 +19,9 @@ const Blog = ({ data }) => {
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
             <h2>{post.node.frontmatter.title}</h2>
-            <p>{post.node.frontmatter.title}</p>
+            <p>{post.node.frontmatter.date}</p>
             <div className="post-list__excerpt">
-              <p>{post.node.excerpt || 'No excerpt'}</p>
+              <p>{post.node.excerpt}</p>
             </div>
             <Link to={post.node.fields.slug}>{'Continue...'}</Link>
           </div>
