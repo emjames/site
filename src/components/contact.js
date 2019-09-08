@@ -8,7 +8,7 @@ const Contact = () => {
         siteMetadata {
           contact {
             url,
-            title
+            title,
           }
         }
       }
