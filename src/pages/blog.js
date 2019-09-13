@@ -1,8 +1,8 @@
 import React from "react"
 
+import Header from "../components/header"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Image from "../components/image"
 import { graphql, Link } from "gatsby"
 
 const Blog = ({ data }) => {
@@ -10,11 +10,7 @@ const Blog = ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem`, marginTop: `2rem` }}>
-        <a href="/">
-          <Image />
-        </a>
-      </div>
+      <Header />
       <div className="post-list">
         {posts.map(post => (
           <div key={post.node.id} className="post-list__item">
