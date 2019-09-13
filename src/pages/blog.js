@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Image from "../components/image"
+import Image from "../components/mainImage"
 import { graphql, Link } from "gatsby"
 
 const Blog = ({ data }) => {
