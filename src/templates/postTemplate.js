@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Header from "../components/header"
+require(`katex/dist/katex.min.css`)
 
 export default function Template({
   data, // This prop will be injected by the GraphQL query below.
