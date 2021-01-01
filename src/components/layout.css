@@ -395,6 +395,8 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
+  color: var(--textLink);
+  font-family: 'Cousine', monospace;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
