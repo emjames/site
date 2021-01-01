@@ -24,6 +24,13 @@ module.exports = {
         title: 'Blog',
         url: '/blog/'
       }
+    ],
+    projects:[
+      {
+        about: 'Timer the talk',
+        title: 'Talk timer',
+        url: 'https://emjames.github.io/talk-timer/'
+      },
     ]
   },
   plugins: [
