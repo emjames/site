@@ -31,6 +31,11 @@ module.exports = {
         title: 'Talk timer',
         url: 'https://emjames.github.io/talk-timer/'
       },
+      {
+        about: 'Square Layout',
+        title: 'Make a square layout',
+        url: 'https://emjames.github.io/square-layout/'
+      },
     ]
   },
   plugins: [
