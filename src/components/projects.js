@@ -18,8 +18,6 @@ const Projects= () => {
 
   const links = data.site.siteMetadata.projects;
 
-  console.log(links)
-
   return (
     <div id="Projects">
       <h3 style={{ marginTop: '1.45em'}}>Projects</h3>

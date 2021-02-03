@@ -17,8 +17,6 @@ const Contact = () => {
 
   const links = data.site.siteMetadata.contact;
 
-  console.log(links)
-
   return (
     <div id="Contact">
       {
