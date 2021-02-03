@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import Contact from "../components/contact"
 import Header from "../components/header"
 import Projects from "../components/projects"
+import Publications from "../components/publications"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -24,6 +25,7 @@ const IndexPage = () => {
       <Header siteTitle={title}/>
       <h1>{title}</h1>
       <Contact />
+      <Publications />
       <Projects />
     </Layout>
   )
