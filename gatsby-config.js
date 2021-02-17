@@ -21,8 +21,8 @@ module.exports = {
         url: 'https://drive.google.com/open?id=1N8LmZhCSLh67-X-FyPZdVhuY7vw8WaQV'
       },
       {
-        title: 'Blog',
-        url: '/blog/'
+        title: 'TIL',
+        url: '/til/'
       }
     ],
     publications:[

@@ -12,12 +12,12 @@ export default function Template({
   return (
     <Layout>
       <Header />
-      <div className="blog-post-container">
-        <div className="blog-post">
+      <div className="til-post-container">
+        <div className="til-post">
           <h1>{frontmatter.title}</h1>
           <h2>{frontmatter.date}</h2>
           <div
-            className="blog-post-content"
+            className="til-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </div>

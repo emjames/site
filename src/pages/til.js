@@ -5,11 +5,11 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { graphql, Link } from "gatsby"
 
-const Blog = ({ data }) => {
+const Til = ({ data }) => {
   const posts = data.allMarkdownRemark.edges
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Til" />
       <Header />
       <div className="post-list">
         {posts.map(post => (
@@ -27,10 +27,10 @@ const Blog = ({ data }) => {
   )
 }
 
-export default Blog
+export default Til
 
 // Get markdown pages
-export const blogPageQuery = graphql`
+export const tilPageQuery = graphql`
   query {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date]}) {
       edges {
